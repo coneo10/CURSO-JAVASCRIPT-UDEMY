@@ -43,7 +43,33 @@ console.log(modulo);
 exponente = 3 ** 2;
 console.log(exponente);
 
-//otra forma exponencial
+//otra forma
 let expo = 5 , expo2 = 2;
 let _expoResultado= expo**expo2;
 console.log(_expoResultado);
+
+
+//operadores incremento
+
+// pre incremento (antes de la variable)
+// a=3
+
+z= ++a;
+console.log(a);
+console.log(z);
+
+//Pos incremento(El operador ++ despues de la variable)
+
+z = b ++;
+console.log(b);
+console.log(z);
+
+// pre decremento a=4
+z = --a;
+console.log(a);
+console.log(z);
+
+//pos decremento b=3
+z= b --;
+console.log(b);
+console.log(z);
